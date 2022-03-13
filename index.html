@@ -73,10 +73,54 @@
 
     <main>
         
-        <!-- Top image -->
+        <!-- Intro section -->
         <div class="text-white text-center bg-image">
           <h1 class="pt-5 display-1"><b>Driving Test Prep</b></h1>
-          <p class="display-6 text-dark m-4">The ultimate <strong>free</strong> NTSA driving test preparation site!</p>
+          <p class="display-6 text-dark mt-4">The ultimate <strong>free</strong> NTSA driving test preparation site!</p>
+          <a href="">
+            <button class="btn btn-success mt-5">Visit site 
+              <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+          </a>
+        </div>
+
+        <!-- Feature section -->
+        <!-- Questions -->
+        <div class="row p-3" id="questions-section">
+          <div class="col text-white">
+            <h2>Commonly asked Questions</h2>
+            <p>Browse a comprehensive set of questions and answers normally asked in tests.</p>
+            <p>On your way to become the best driver on the road one question at a time!</p>
+          </div>
+          <div class="col text-end" >
+            <img src="/static/images/question.jpg" alt="question">
+          </div>
+        </div>
+
+        <!-- Highway signs -->
+        <div class="row p-3" id="signs-section">
+          <div class="col" >
+            <div style="width: 100%;">
+              <img src="/static/images/sign.jpg" alt="highway">
+            </div>
+          </div>
+          <div class="col">
+            <h2>Highway Signs</h2>
+            <p>Identify road signs like a pro.</p>
+            <p>This is a comprehensive list of all the highway signs you'll ever need to know.</p>
+          </div>
+        </div>
+
+        <!-- MTB -->
+        <div class="row p-3" id="mtb-section">
+          <div class="col">
+            <h2>The Model Board</h2>
+            <p>A representation of the road networks in East African towns mean't to teach learner drivers.</p>
+            <p>Know the Model Town Board like the back of your hand</p>
+          </div>
+          <div class="col text-end">
+            <img src="/static/images/mtb.jpg" alt="model town board">
+          </div>
+
         </div>
       
     </main>
@@ -85,7 +129,7 @@
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
           © 2022 Copyright | 
-          <a class="text-dark text-decoration-none" href="{% url 'home' %}">DrivingTestPrep.io</a>
+          <a class="text-dark text-decoration-none" href="#">DrivingTestPrep.io</a>
         </div>
         <!-- Copyright -->
       </footer>

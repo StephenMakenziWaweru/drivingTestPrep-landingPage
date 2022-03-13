@@ -1,8 +1,21 @@
-body {
+main {
   font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
 }
 .bg-image {
-    width: 100%; height: 800px; 
+    width: 100%; height: 700px; 
     background-image: url("/static/images/bg.jpg");
     background-repeat: no-repeat;
+  }
+
+  #questions-section {
+    background-color: #2f3542;
+  }
+
+  #signs-section {
+    background-color: #ced6e0;
+  }
+
+  #mtb-section {
+    background-color: #FFF;
   }
