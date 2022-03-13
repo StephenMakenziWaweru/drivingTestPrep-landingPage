@@ -8,7 +8,18 @@ main {
     background-repeat: no-repeat;
   }
 
-  #questions-section {
+  #features-section {
+    background-color: #2f3542;
+  }
+  #about-section {
+    background-color: #ced6e0;
+  }
+
+  footer div {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  /* #questions-section {
     background-color: #2f3542;
   }
 
@@ -18,4 +29,4 @@ main {
 
   #mtb-section {
     background-color: #FFF;
-  }
+  } */
